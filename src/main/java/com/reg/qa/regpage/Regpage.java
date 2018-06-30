@@ -1,6 +1,6 @@
 package com.reg.qa.regpage;
 
-//Author is chandan
+//Author is chandan singh
 
 //import java.io.IOException;
 
