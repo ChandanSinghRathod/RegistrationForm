@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">18</td><td class="numi">18</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">117,4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Default test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.reg.qa.testcases.RegPageTest</td><td><a href="#m1"><b>ChkIcnTest</b>  </a></td><td class="numi">1</td><td>1530259108034</td><td class="numi">131</td></tr>
+<tr><th colspan="4">Default test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="18">com.reg.qa.testcases.RegPageTest</td><td><a href="#m2"><b>UNCTest</b>  </a></td><td class="numi">1</td><td>1530259094168</td><td class="numi">189</td></tr><tr class="passedodd"><td><a href="#m3"><b>cnfpasswordlabelTest</b>  </a></td><td class="numi">1</td><td>1530259033214</td><td class="numi">49</td></tr><tr class="passedodd"><td><a href="#m4"><b>contactnolabelTest</b>  </a></td><td class="numi">1</td><td>1530259044725</td><td class="numi">65</td></tr><tr class="passedodd"><td><a href="#m5"><b>emaillabelTest</b>  </a></td><td class="numi">1</td><td>1530259038894</td><td class="numi">57</td></tr><tr class="passedodd"><td><a href="#m6"><b>entercontactnoTest</b>  </a></td><td class="numi">1</td><td>1530259088007</td><td class="numi">396</td></tr><tr class="passedodd"><td><a href="#m7"><b>entercpwdTest</b>  </a></td><td class="numi">1</td><td>1530259075500</td><td class="numi">283</td></tr><tr class="passedodd"><td><a href="#m8"><b>enteremailTest</b>  </a></td><td class="numi">1</td><td>1530259081839</td><td class="numi">370</td></tr><tr class="passedodd"><td><a href="#m9"><b>enterfnTest</b>  </a></td><td class="numi">1</td><td>1530259050643</td><td class="numi">350</td></tr><tr class="passedodd"><td><a href="#m10"><b>enterlnTest</b>  </a></td><td class="numi">1</td><td>1530259057457</td><td class="numi">266</td></tr><tr class="passedodd"><td><a href="#m11"><b>enterpwdTest</b>  </a></td><td class="numi">1</td><td>1530259069533</td><td class="numi">288</td></tr><tr class="passedodd"><td><a href="#m12"><b>enterunTest</b>  </a></td><td class="numi">1</td><td>1530259063426</td><td class="numi">382</td></tr><tr class="passedodd"><td><a href="#m13"><b>errormsgTest</b>  </a></td><td class="numi">1</td><td>1530259113835</td><td class="numi">270</td></tr><tr class="passedodd"><td><a href="#m14"><b>errormsgblankfieldusernameTest</b>  </a></td><td class="numi">1</td><td>1530259119843</td><td class="numi">166</td></tr><tr class="passedodd"><td><a href="#m15"><b>fillformtest</b>  </a></td><td class="numi">1</td><td>1530259100087</td><td class="numi">2126</td></tr><tr class="passedodd"><td><a href="#m16"><b>firstnamelabelTest</b>  </a></td><td class="numi">1</td><td>1530259009400</td><td class="numi">66</td></tr><tr class="passedodd"><td><a href="#m17"><b>lastnamelabelTest</b>  </a></td><td class="numi">1</td><td>1530259015542</td><td class="numi">47</td></tr><tr class="passedodd"><td><a href="#m18"><b>passwordlabelTest</b>  </a></td><td class="numi">1</td><td>1530259027408</td><td class="numi">47</td></tr><tr class="passedodd"><td><a href="#m19"><b>usernamelabelTest</b>  </a></td><td class="numi">1</td><td>1530259021475</td><td class="numi">43</td></tr>
+</table>
+<h1>Default test</h1>
+<h2 id="m1">com.reg.qa.testcases.RegPageTest:ChkIcnTest</h2>
+<div style="padding-left:3em">
+<p>unknown error: keys should be a string
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;CKUMARSI-WX-1&apos;, ip: &apos;10.41.116.227&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\Ckumarsi\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 9d354f88c724658fd205c95dc618a022</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:100)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.lang.reflect.Method.invoke(Method.java:497)
+<br/>at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+<br/>at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+<br/>at com.reg.qa.regpage.Regpage.checkiconforun(Regpage.java:182)
+<br/>at com.reg.qa.testcases.RegPageTest.ChkIcnTest(RegPageTest.java:135)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.reg.qa.testcases.RegPageTest:usernamelabelTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.reg.qa.testcases.RegPageTest:passwordlabelTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.reg.qa.testcases.RegPageTest:enterlnTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.reg.qa.testcases.RegPageTest:enterunTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">com.reg.qa.testcases.RegPageTest:emaillabelTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">com.reg.qa.testcases.RegPageTest:enterpwdTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">com.reg.qa.testcases.RegPageTest:firstnamelabelTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">com.reg.qa.testcases.RegPageTest:enteremailTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">com.reg.qa.testcases.RegPageTest:fillformtest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">com.reg.qa.testcases.RegPageTest:contactnolabelTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">com.reg.qa.testcases.RegPageTest:cnfpasswordlabelTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">com.reg.qa.testcases.RegPageTest:entercpwdTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">com.reg.qa.testcases.RegPageTest:errormsgblankfieldusernameTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">com.reg.qa.testcases.RegPageTest:lastnamelabelTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">com.reg.qa.testcases.RegPageTest:enterfnTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">com.reg.qa.testcases.RegPageTest:entercontactnoTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">com.reg.qa.testcases.RegPageTest:UNCTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">com.reg.qa.testcases.RegPageTest:errormsgTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

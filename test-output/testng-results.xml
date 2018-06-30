@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="19" passed="18">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="117420" started-at="2018-06-29T07:56:43Z" finished-at="2018-06-29T07:58:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="117420" started-at="2018-06-29T07:56:43Z" finished-at="2018-06-29T07:58:40Z">
+      <class name="com.reg.qa.testcases.RegPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="setUp" is-config="true" duration-ms="6088" started-at="2018-06-29T13:26:43Z" finished-at="2018-06-29T13:26:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="firstnamelabelTest()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="firstnamelabelTest" duration-ms="66" started-at="2018-06-29T13:26:49Z" finished-at="2018-06-29T13:26:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstnamelabelTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="tearDown" is-config="true" duration-ms="733" started-at="2018-06-29T13:26:49Z" finished-at="2018-06-29T13:26:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="setUp" is-config="true" duration-ms="5342" started-at="2018-06-29T13:26:50Z" finished-at="2018-06-29T13:26:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="lastnamelabelTest()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="lastnamelabelTest" duration-ms="47" started-at="2018-06-29T13:26:55Z" finished-at="2018-06-29T13:26:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastnamelabelTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="tearDown" is-config="true" duration-ms="710" started-at="2018-06-29T13:26:55Z" finished-at="2018-06-29T13:26:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="setUp" is-config="true" duration-ms="5174" started-at="2018-06-29T13:26:56Z" finished-at="2018-06-29T13:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="usernamelabelTest()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="usernamelabelTest" duration-ms="43" started-at="2018-06-29T13:27:01Z" finished-at="2018-06-29T13:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usernamelabelTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="tearDown" is-config="true" duration-ms="704" started-at="2018-06-29T13:27:01Z" finished-at="2018-06-29T13:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="setUp" is-config="true" duration-ms="5185" started-at="2018-06-29T13:27:02Z" finished-at="2018-06-29T13:27:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="passwordlabelTest()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="passwordlabelTest" duration-ms="47" started-at="2018-06-29T13:27:07Z" finished-at="2018-06-29T13:27:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordlabelTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="tearDown" is-config="true" duration-ms="712" started-at="2018-06-29T13:27:07Z" finished-at="2018-06-29T13:27:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="setUp" is-config="true" duration-ms="5046" started-at="2018-06-29T13:27:08Z" finished-at="2018-06-29T13:27:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cnfpasswordlabelTest()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="cnfpasswordlabelTest" duration-ms="49" started-at="2018-06-29T13:27:13Z" finished-at="2018-06-29T13:27:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cnfpasswordlabelTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="tearDown" is-config="true" duration-ms="686" started-at="2018-06-29T13:27:13Z" finished-at="2018-06-29T13:27:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="setUp" is-config="true" duration-ms="4944" started-at="2018-06-29T13:27:13Z" finished-at="2018-06-29T13:27:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="emaillabelTest()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="emaillabelTest" duration-ms="57" started-at="2018-06-29T13:27:18Z" finished-at="2018-06-29T13:27:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emaillabelTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="tearDown" is-config="true" duration-ms="704" started-at="2018-06-29T13:27:18Z" finished-at="2018-06-29T13:27:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="setUp" is-config="true" duration-ms="5069" started-at="2018-06-29T13:27:19Z" finished-at="2018-06-29T13:27:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="contactnolabelTest()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="contactnolabelTest" duration-ms="65" started-at="2018-06-29T13:27:24Z" finished-at="2018-06-29T13:27:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactnolabelTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="tearDown" is-config="true" duration-ms="740" started-at="2018-06-29T13:27:24Z" finished-at="2018-06-29T13:27:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="setUp" is-config="true" duration-ms="5111" started-at="2018-06-29T13:27:25Z" finished-at="2018-06-29T13:27:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="enterfnTest()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="enterfnTest" duration-ms="350" started-at="2018-06-29T13:27:30Z" finished-at="2018-06-29T13:27:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterfnTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="tearDown" is-config="true" duration-ms="786" started-at="2018-06-29T13:27:30Z" finished-at="2018-06-29T13:27:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="setUp" is-config="true" duration-ms="5676" started-at="2018-06-29T13:27:31Z" finished-at="2018-06-29T13:27:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="enterlnTest()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="enterlnTest" duration-ms="266" started-at="2018-06-29T13:27:37Z" finished-at="2018-06-29T13:27:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterlnTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="tearDown" is-config="true" duration-ms="698" started-at="2018-06-29T13:27:37Z" finished-at="2018-06-29T13:27:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="setUp" is-config="true" duration-ms="5004" started-at="2018-06-29T13:27:38Z" finished-at="2018-06-29T13:27:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="enterunTest()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="enterunTest" duration-ms="382" started-at="2018-06-29T13:27:43Z" finished-at="2018-06-29T13:27:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterunTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="tearDown" is-config="true" duration-ms="692" started-at="2018-06-29T13:27:43Z" finished-at="2018-06-29T13:27:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="setUp" is-config="true" duration-ms="5033" started-at="2018-06-29T13:27:44Z" finished-at="2018-06-29T13:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="enterpwdTest()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="enterpwdTest" duration-ms="288" started-at="2018-06-29T13:27:49Z" finished-at="2018-06-29T13:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterpwdTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="tearDown" is-config="true" duration-ms="694" started-at="2018-06-29T13:27:49Z" finished-at="2018-06-29T13:27:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="setUp" is-config="true" duration-ms="4984" started-at="2018-06-29T13:27:50Z" finished-at="2018-06-29T13:27:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="entercpwdTest()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="entercpwdTest" duration-ms="283" started-at="2018-06-29T13:27:55Z" finished-at="2018-06-29T13:27:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entercpwdTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="tearDown" is-config="true" duration-ms="763" started-at="2018-06-29T13:27:55Z" finished-at="2018-06-29T13:27:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="setUp" is-config="true" duration-ms="5292" started-at="2018-06-29T13:27:56Z" finished-at="2018-06-29T13:28:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="enteremailTest()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="enteremailTest" duration-ms="370" started-at="2018-06-29T13:28:01Z" finished-at="2018-06-29T13:28:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enteremailTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="tearDown" is-config="true" duration-ms="710" started-at="2018-06-29T13:28:02Z" finished-at="2018-06-29T13:28:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="setUp" is-config="true" duration-ms="5087" started-at="2018-06-29T13:28:02Z" finished-at="2018-06-29T13:28:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="entercontactnoTest()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="entercontactnoTest" duration-ms="396" started-at="2018-06-29T13:28:08Z" finished-at="2018-06-29T13:28:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entercontactnoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="tearDown" is-config="true" duration-ms="737" started-at="2018-06-29T13:28:08Z" finished-at="2018-06-29T13:28:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="setUp" is-config="true" duration-ms="5027" started-at="2018-06-29T13:28:09Z" finished-at="2018-06-29T13:28:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="UNCTest()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="UNCTest" duration-ms="189" started-at="2018-06-29T13:28:14Z" finished-at="2018-06-29T13:28:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UNCTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="tearDown" is-config="true" duration-ms="735" started-at="2018-06-29T13:28:14Z" finished-at="2018-06-29T13:28:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="setUp" is-config="true" duration-ms="4994" started-at="2018-06-29T13:28:15Z" finished-at="2018-06-29T13:28:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="fillformtest()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="fillformtest" duration-ms="2126" started-at="2018-06-29T13:28:20Z" finished-at="2018-06-29T13:28:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillformtest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="tearDown" is-config="true" duration-ms="707" started-at="2018-06-29T13:28:22Z" finished-at="2018-06-29T13:28:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="setUp" is-config="true" duration-ms="5113" started-at="2018-06-29T13:28:22Z" finished-at="2018-06-29T13:28:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="ChkIcnTest()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="ChkIcnTest" duration-ms="131" started-at="2018-06-29T13:28:28Z" finished-at="2018-06-29T13:28:28Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: keys should be a string
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'CKUMARSI-WX-1', ip: '10.41.116.227', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\Ckumarsi\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 9d354f88c724658fd205c95dc618a022]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: keys should be a string
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'CKUMARSI-WX-1', ip: '10.41.116.227', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\Ckumarsi\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 9d354f88c724658fd205c95dc618a022
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:100)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+	at com.reg.qa.regpage.Regpage.checkiconforun(Regpage.java:182)
+	at com.reg.qa.testcases.RegPageTest.ChkIcnTest(RegPageTest.java:135)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChkIcnTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="tearDown" is-config="true" duration-ms="706" started-at="2018-06-29T13:28:28Z" finished-at="2018-06-29T13:28:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="setUp" is-config="true" duration-ms="4961" started-at="2018-06-29T13:28:28Z" finished-at="2018-06-29T13:28:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="errormsgTest()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="errormsgTest" duration-ms="270" started-at="2018-06-29T13:28:33Z" finished-at="2018-06-29T13:28:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errormsgTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="tearDown" is-config="true" duration-ms="705" started-at="2018-06-29T13:28:34Z" finished-at="2018-06-29T13:28:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="setUp" is-config="true" duration-ms="5032" started-at="2018-06-29T13:28:34Z" finished-at="2018-06-29T13:28:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="errormsgblankfieldusernameTest()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="errormsgblankfieldusernameTest" duration-ms="166" started-at="2018-06-29T13:28:39Z" finished-at="2018-06-29T13:28:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errormsgblankfieldusernameTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.reg.qa.testcases.RegPageTest@46d56d67]" name="tearDown" is-config="true" duration-ms="719" started-at="2018-06-29T13:28:40Z" finished-at="2018-06-29T13:28:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.reg.qa.testcases.RegPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
